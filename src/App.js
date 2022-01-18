@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Navbar from "./components/Navbar.js"
+import Introduction from "./components/Introduction.js"
 
-function App() {
+import { VStack } from "@chakra-ui/layout"
+import { useColorMode } from "@chakra-ui/color-mode"
+import { useMediaQuery } from "@chakra-ui/media-query"
+
+export default function App() {
+  const { colorMode, toggleColorMode } = useColorMode()
+  const isDark = (colorMode === "dark")
+
+  const [ isBigScreen ] = useMediaQuery("(min-width:600px)")
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <VStack p="5">
+      <Navbar isDark={isDark} toggleColorMode={toggleColorMode} />
+      <Introduction isDark={isDark} isBigScreen={isBigScreen} />
+    </VStack>
+  )
 }
-
-export default App;
