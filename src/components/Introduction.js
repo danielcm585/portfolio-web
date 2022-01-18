@@ -1,5 +1,5 @@
 import React from "react"
-import MyPhoto from "../my-photo.jpg"
+import MyPhoto from "../img/my-photo.jpg"
 
 import { Image } from "@chakra-ui/image"
 import { Flex, Text, Box } from "@chakra-ui/layout"
