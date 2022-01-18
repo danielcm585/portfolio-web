@@ -9,7 +9,7 @@ import { FaSun, FaMoon } from "react-icons/fa"
 export default function Navbar({ isDark, toggleColorMode }) {
   return (
     <Flex w="70%">
-      <Heading size="lg" fontWeight="semibold" color={isDark ? "sky.50" : "sky.500"}>
+      <Heading size="lg" fontWeight="semibold">
         Daniel C.M.
       </Heading>
       <Spacer></Spacer>

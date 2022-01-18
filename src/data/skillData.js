@@ -1,62 +1,108 @@
+import { SiPython, SiJava, SiGo, SiCplusplus, SiPhp, SiMysql, SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiGithub, SiDocker, SiFigma, SiAdobephotoshop, SiNetlify } from "react-icons/si"
+
 const data = {
-  "language": [{
+  "language": [
+    {
       "title": "Python",
+      "icon": SiPython,
       "level": "expert",
-    }, {
-      "title": "C++",
-      "level": "expert",
-    }, {
+    }, 
+    {
       "title": "Java",
+      "icon": SiJava,
       "level": "intermediate",
-    }, {
-      "title": "Javascript",
-      "level": "intermediate",
-    }, {
+    }, 
+    {
       "title": "Go",
+      "icon": SiGo,
       "level": "intermediate",
-    }, {
-      "title": "HTML",
-      "level": "intermediate",
-    }, {
-      "title": "CSS",
-      "level": "novice",
-    }, {
-      "title": "SQL",
-      "level": "novice",
-    }, {
+    }, 
+    {
+      "title": "C++",
+      "icon": SiCplusplus,
+      "level": "expert",
+    }, 
+    {
       "title": "PHP",
+      "icon": SiPhp,
       "level": "novice",
     },
+    {
+      "title": "SQL",
+      "icon": SiMysql,
+      "level": "intermediate",
+    }, 
+    {
+      "title": "HTML",
+      "icon": SiHtml5,
+      "level": "intermediate",
+    }, 
+    {
+      "title": "CSS",
+      "icon": SiCss3,
+      "level": "novice",
+    }, 
+    {
+      "title": "Javascript",
+      "icon": SiJavascript,
+      "level": "intermediate",
+    }, 
   ],
-  "framework": [{
+  "framework": [
+    {
       "title": "React.js",
+      "icon": SiReact,
       "level": "intermediate",
-    }, {
+    }, 
+    {
       "title": "Next.js",
+      "icon": SiNextdotjs,
+      "level": "novice",
+    }, 
+    {
+      "title": "Node.js",
+      "icon": SiNodedotjs,
+      "level": "novice",
+    }, 
+    {
+      "title": "Tailwind",
+      "icon": SiTailwindcss,
       "level": "novice",
     },
   ],
-  "tools": [{
+  "tool": [
+    {
       "title": "Git/Github",
+      "icon": SiGithub,
       "level": "intermediate",
-    }, {
+    }, 
+    {
       "title": "Docker",
+      "icon": SiDocker,
       "level": "novice",
-    }, {
+    }, 
+    {
       "title": "Figma",
+      "icon": SiFigma,
       "level": "novice",
-    }, {
+    }, 
+    {
       "title": "Adobe Photoshop",
+      "icon": SiAdobephotoshop,
       "level": "novice",
-    }, {
+    }, 
+    {
       "title": "Netlify",
+      "icon": SiNetlify,
       "level": "novice",
     },
   ],
-  "additional": [{
+  "additional": [
+    {
       "title": "OOP",
       "level": "intermediate",
-    }, {
+    }, 
+    {
       "title": "UI/UX Design",
       "level": "novice",
     }

@@ -6,9 +6,18 @@ const data = {
     "none": "blue.400",
   },
   "level": {
-    "novice": "yellow.400",
-    "intermediate": "orange.600",
-    "expert": "red.600",
+    "novice": {
+      true: "yellow.600",
+      false: "yellow.300",
+    },
+    "intermediate": {
+      true: "orange.600",
+      false: "orange.300",
+    },
+    "expert": {
+      true: "red.600",
+      false: "red.300",
+    },
   }
 }
 
