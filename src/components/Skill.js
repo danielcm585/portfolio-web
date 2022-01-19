@@ -15,19 +15,19 @@ export default function Skill({ isDark, isBigScreen }) {
         </Wrap>
         <Text mt="5" fontSize="2xl" fontWeight="semibold">Languages</Text>
         <Flex>
-          {skillData.language.map((skill) => <SkillItem isDark={isDark} skill={skill} />)}
+          {skillData.language.map((skill) => <SkillItem key={skill.id} isDark={isDark} skill={skill} />)}
         </Flex>
         <Text mt="5" fontSize="2xl" fontWeight="semibold">Frameworks</Text>
         <Flex>
-          {skillData.framework.map((skill) => <SkillItem isDark={isDark} skill={skill} />)}
+          {skillData.framework.map((skill) => <SkillItem key={skill.id} isDark={isDark} skill={skill} />)}
         </Flex>
         <Text mt="5" fontSize="2xl" fontWeight="semibold">Tools</Text>
         <Flex>
-          {skillData.tool.map((skill) => <SkillItem isDark={isDark} skill={skill} />)}
+          {skillData.tool.map((skill) => <SkillItem key={skill.id} isDark={isDark} skill={skill} />)}
         </Flex>
         <Text mt="5" fontSize="2xl" fontWeight="semibold">Additional</Text>
         <Flex>
-          {skillData.additional.map((skill) => <SkillItem isDark={isDark} skill={skill} />)}
+          {skillData.additional.map((skill) => <SkillItem key={skill.id} isDark={isDark} skill={skill} />)}
         </Flex>
       </Box>
     </Flex>
