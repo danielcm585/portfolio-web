@@ -1,23 +1,23 @@
-import React, { useState } from "react"
-import Carousel from "react-elastic-carousel"
-import ProjectItem from "./items/ProjectItem.js"
+import React from "react"
+
+import ProjectItem from "./items/ProjectItem.js";
 import projectData from "../data/projectData.js"
 
-import { Image } from "@chakra-ui/image"
+import { Image } from "@chakra-ui/react"
 import { Flex, Box, Text, Wrap } from "@chakra-ui/layout"
 
+import Carousel from "react-slick"
+
 export default function Project({ isBigScreen }) {
-  const [items, setItems] = useState(projectData.filter((project) => {
-    return project.id <= 8
-  }));
-  console.log(items.length);
-  
-  const breakPoints = [
-    { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-    { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 }
-  ];
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
+  }
 
   return (
     <Flex w="77%">
@@ -27,20 +27,13 @@ export default function Project({ isBigScreen }) {
             My Projects
           </Text>
         </Wrap>
-        <Flex mt="5">
-          <Carousel breakPoints={breakPoints}>
+        {/* <Flex mt="5">
+          <Carousel {...settings}>
             {
-              items.map((project) => {
-                console.log(project.id);
-                return (
-                  <ProjectItem key={project.id}>
-                    <Image h="250" w="400" src={project.img}/>
-                  </ProjectItem>
-                )
-              })
+              projectData.map((project, index) => <ProjectItem key={index} project={project} />)
             }
           </Carousel>
-        </Flex>
+        </Flex> */}
       </Box>
     </Flex>
   )

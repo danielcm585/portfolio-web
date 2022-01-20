@@ -1,4 +1,5 @@
 import React from "react"
+
 import MyPhoto from "../img/my-photo.jpg"
 
 import { Image } from "@chakra-ui/image"

@@ -1,6 +1,6 @@
 const data = [{
-    "title": "National Gold Medalist",
-    "contest": "ICPC Asia Jakarta 2021 (as UNLIMITED)",
+    "title": "National Gold Medalist (as UNLIMITED)",
+    "contest": "ICPC Asia Jakarta 2021",
     "medal": "gold",
     "site": "https://competition.binus.ac.id/icpc2021/final.html",
   }, {
@@ -9,7 +9,7 @@ const data = [{
     "medal": "bronze",
     "site": "http://www.kalderanews.com/2020/10/inilah-daftar-lengkap-pemenang-ksn-jenjang-sma-bidang-informatika-2020/",
   }, {
-    "title": "Top 12 Teams (as UNLIMITED)",
+    "title": "Top 12 Team (as UNLIMITED)",
     "contest": "INC 2021",
     "medal": "none",
     "site": "https://competition.binus.ac.id/inc2021/",

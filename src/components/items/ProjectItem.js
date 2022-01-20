@@ -1,12 +1,13 @@
-import styled from "styled-components";
+import React from "react";
 
-export default styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 250px;
-  width: 100%;
-  color: #fff;
-  margin: 15px;
-  font-size: 4em;
-`;
+import { Box } from "@chakra-ui/layout";
+import { Image } from "@chakra-ui/react";
+
+export default function ProjectItem({ project }) {
+  return (
+    <Box>
+      {/* Halo */}
+      <Image h="8" src={project.img} />
+    </Box>
+  )
+}

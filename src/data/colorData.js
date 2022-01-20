@@ -2,7 +2,7 @@ const data = {
   "medal": {
     "gold": "yellow.500",
     "silver": "zinc.400",
-    "bronze": "yellow.800",
+    "bronze": "yellow.700",
     "none": "blue.400",
   },
   "level": {
@@ -18,6 +18,10 @@ const data = {
       true: "red.600",
       false: "red.300",
     },
+  },
+  "card": {
+    true: "purple.600",
+    false: "purple.300",
   }
 }
 

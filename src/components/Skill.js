@@ -1,4 +1,5 @@
 import React from "react"
+
 import SkillItem from "./items/SkillItem.js"
 import skillData from "../data/skillData.js"
 
@@ -15,19 +16,27 @@ export default function Skill({ isDark, isBigScreen }) {
         </Wrap>
         <Text mt="5" fontSize="2xl" fontWeight="semibold">Languages</Text>
         <Flex>
-          {skillData.language.map((skill) => <SkillItem key={skill.id} isDark={isDark} skill={skill} />)}
+          {
+            skillData.language.map((skill, index) => <SkillItem key={index} isDark={isDark} skill={skill} />)
+          }
         </Flex>
         <Text mt="5" fontSize="2xl" fontWeight="semibold">Frameworks</Text>
         <Flex>
-          {skillData.framework.map((skill) => <SkillItem key={skill.id} isDark={isDark} skill={skill} />)}
+          {
+            skillData.framework.map((skill, index) => <SkillItem key={index} isDark={isDark} skill={skill} />)
+          }
         </Flex>
         <Text mt="5" fontSize="2xl" fontWeight="semibold">Tools</Text>
         <Flex>
-          {skillData.tool.map((skill) => <SkillItem key={skill.id} isDark={isDark} skill={skill} />)}
+          {
+            skillData.tool.map((skill, index) => <SkillItem key={index} isDark={isDark} skill={skill} />)
+          }
         </Flex>
         <Text mt="5" fontSize="2xl" fontWeight="semibold">Additional</Text>
         <Flex>
-          {skillData.additional.map((skill) => <SkillItem key={skill.id} isDark={isDark} skill={skill} />)}
+          {
+            skillData.additional.map((skill, index) => <SkillItem key={index} isDark={isDark} skill={skill} />)
+          }
         </Flex>
       </Box>
     </Flex>

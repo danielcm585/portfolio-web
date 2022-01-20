@@ -1,10 +1,11 @@
 import React from "react"
-import Navbar from "./components/Navbar.js"
-import Introduction from "./components/Introduction.js"
-import Skill from "./components/Skill.js"
-import Project from "./components/Project.js"
-// import Achievement from "./components/Achievement.js"
-// import Certification from "./components/Certification.js"
+
+import Navbar from "../components/Navbar.js"
+import Introduction from "../components/Introduction.js"
+import Skill from "../components/Skill.js"
+import Project from "../components/Project.js"
+import Achievement from "../components/Achievement.js"
+// import Certification from "../components/Certification.js"
 
 import { VStack } from "@chakra-ui/layout"
 import { useColorMode } from "@chakra-ui/color-mode"
@@ -22,7 +23,7 @@ export default function App() {
       <Introduction isDark={isDark} isBigScreen={isBigScreen} />
       <Skill isDark={isDark} isBigScreen={isBigScreen} />
       <Project isBigScreen={isBigScreen} />
-      {/* <Achievement /> */}
+      <Achievement isDark={isDark} isBigScreen={isBigScreen} />
       {/* <Certification /> */}
     </VStack>
   )

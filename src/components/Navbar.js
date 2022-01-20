@@ -1,8 +1,10 @@
 import React from "react"
+
 import socialData from "../data/socialData.js"
 
 import { IconButton } from "@chakra-ui/button"
 import { Flex, Heading, Spacer } from "@chakra-ui/layout"
+
 import { SiInstagram, SiWhatsapp, SiGithub, SiLinkedin, SiCodeforces } from "react-icons/si"
 import { FaSun, FaMoon } from "react-icons/fa"
 
