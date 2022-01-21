@@ -1,4 +1,4 @@
-import { SiPython, SiJava, SiGo, SiCplusplus, SiPhp, SiMysql, SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiGithub, SiDocker, SiFigma, SiAdobephotoshop, SiNetlify } from "react-icons/si"
+import { SiPython, SiJava, SiGo, SiCplusplus, SiPhp, SiMysql, SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiGithub, SiDocker, SiFigma, SiAdobephotoshop, SiNetlify, SiChakraui } from "react-icons/si"
 
 const data = {
   "language": [
@@ -68,6 +68,11 @@ const data = {
       "title": "Tailwind",
       "icon": SiTailwindcss,
       "level": "novice",
+    },
+    {
+      "title": "ChakraUI",
+      "icon": SiChakraui,
+      "level": "intermediate",
     },
   ],
   "tool": [

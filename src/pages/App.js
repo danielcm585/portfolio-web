@@ -7,9 +7,9 @@ import Project from "../components/Project.js"
 import Achievement from "../components/Achievement.js"
 // import Certification from "../components/Certification.js"
 
-import { VStack } from "@chakra-ui/layout"
 import { useColorMode } from "@chakra-ui/color-mode"
 import { useMediaQuery } from "@chakra-ui/media-query"
+import { VStack } from "@chakra-ui/layout"
 
 export default function App() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -22,7 +22,7 @@ export default function App() {
       <Navbar isDark={isDark} toggleColorMode={toggleColorMode} />
       <Introduction isDark={isDark} isBigScreen={isBigScreen} />
       <Skill isDark={isDark} isBigScreen={isBigScreen} />
-      <Project isBigScreen={isBigScreen} />
+      <Project isDark={isDark} isBigScreen={isBigScreen} />
       <Achievement isDark={isDark} isBigScreen={isBigScreen} />
       {/* <Certification /> */}
     </VStack>
