@@ -12,7 +12,7 @@ export default function ProjectItem({ isDark, project }) {
     <Box bg={cardColor} borderRadius="lg" p="1">
       <Image borderRadius="lg" src={project.img} />
       <Text ml="2" mt="2" fontSize="2xl" fontWeight="semibold">{project.title}</Text>
-      <Button ml="2" mb="2" mt="2" onClick={() => window.open(project.site)}>Show Details</Button>
+      <Button ml="2" mb="2" mt="2" onClick={() => window.location.href="/portfolio/"+project.id}>Show Details</Button>
     </Box>
   )
 }
