@@ -41,7 +41,7 @@ export default function Project({ isDark, isBigScreen }) {
             }
           </Carousel> */}
         </Flex>
-        <Button mt="3" onClick={() => window.open("/portfolio")}>Show All</Button>
+        <Button mt="2" onClick={() => window.location.href="/portfolio"}>Show All</Button>
       </Box>
     </Flex>
   )

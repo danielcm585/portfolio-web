@@ -6,8 +6,8 @@ import Portfolio from "./pages/Portfolio.js"
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css"; 
+// import "slick-carousel/slick/slick-theme.css";
 
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
 

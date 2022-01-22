@@ -2,7 +2,7 @@ import React from "react"
 
 import colorData from "../../data/colorData.js"
 
-import { FaMedal } from "react-icons/fa"
+import { FaMedal, FaLink } from "react-icons/fa"
 
 import { Button, Text } from "@chakra-ui/react"
 import { Icon } from "@chakra-ui/icon"
@@ -21,7 +21,7 @@ export default function AchievementItem({ isDark, achievement }) {
         <Box>
           <Text fontSize="2xl" fontWeight="semibold">{achievement.title}</Text>
           <Text fontSize="1xl" fontWeight="semibold">{achievement.contest}</Text>
-          <Button mt="2" onClick={() => window.open(achievement.site)}>Visit Site</Button>
+          <Button mt="2" leftIcon={<FaLink />} onClick={() => window.open(achievement.site)}>Visit Site</Button>
         </Box>
       </HStack>
     </Box>
