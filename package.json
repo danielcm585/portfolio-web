@@ -49,6 +49,7 @@
   },
   "devDependencies": {
     "ajv": "^6.12.6",
+    "mini-css-extract-plugin": "2.4.5",
     "react": "^16.14.0"
   }
 }
