@@ -22,6 +22,10 @@ const data = {
   "card": {
     true: "purple.600",
     false: "purple.300",
+  },
+  "footer": {
+    true: "black",
+    false: "gray.500",
   }
 }
 

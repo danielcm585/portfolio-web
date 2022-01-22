@@ -30,16 +30,13 @@ export default function Project({ isDark, isBigScreen }) {
           </Text>
         </Wrap>
         <Flex mt="5">
+          {/* <Carousel {...settings}> */}
           <Grid templateColumns="repeat(3, 1fr)" gap="3">
             {
               simplePortfolio.map((project, index) => <ProjectItem key={index} project={project} isDark={isDark} />)
             }
           </Grid>
-          {/* <Carousel {...settings}>
-            {
-              projectData.map((project, index) => <ProjectItem key={index} project={project} />)
-            }
-          </Carousel> */}
+          {/* </Carousel> */}
         </Flex>
         <Button mt="3" onClick={() => window.location.href="/portfolio"}>Show All</Button>
       </Box>

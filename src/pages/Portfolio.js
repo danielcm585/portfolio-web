@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 
 import Navbar from "../components/Navbar.js"
-import projectData from "../data/projectData.js"
 import ProjectItem from "../components/items/ProjectItem.js";
+import Footer from "../components/Footer.js"
+import projectData from "../data/projectData.js"
 
 import { FaHome } from "react-icons/fa"
 
@@ -22,29 +23,32 @@ export default function Portfolio() {
   const [ isBigScreen ] = useMediaQuery("(min-width:600px)")
 
   return (
-    <VStack p="5">
-      <Navbar isDark={isDark} toggleColorMode={toggleColorMode} />
-      <Flex w="70%">
-        <Box mt="6">
+    <>
+      <VStack p="5">
+        <Navbar isDark={isDark} toggleColorMode={toggleColorMode} />
+        <Flex w="70%">
+          <Box mt="6">
 
-          <HStack>
-            <Wrap>
-              <Text fontSize="4xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">
-                My Portfolio
-              </Text>
-            </Wrap>
-            <Spacer></Spacer>
-            <Button mt="8" leftIcon={<FaHome />} onClick={() => window.location.href="/"}>Home</Button>
-          </HStack>
+            <HStack>
+              <Wrap>
+                <Text fontSize="4xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">
+                  My Portfolio
+                </Text>
+              </Wrap>
+              <Spacer></Spacer>
+              <Button mt="8" leftIcon={<FaHome />} onClick={() => window.location.href="/"}>Home</Button>
+            </HStack>
 
-          <Grid mt="5" templateColumns={isBigScreen ? "repeat(3, 1fr)" : "repeat(1, 1fr)"} gap="3">
-            {
-              projectData.map((project, index) => <ProjectItem key={index} project={project} isDark={isDark} />)
-            }
-          </Grid>
-          
-        </Box>
-      </Flex>
-    </VStack>
+            <Grid mt="5" templateColumns={isBigScreen ? "repeat(3, 1fr)" : "repeat(1, 1fr)"} gap="3">
+              {
+                projectData.map((project, index) => <ProjectItem key={index} project={project} isDark={isDark} />)
+              }
+            </Grid>
+            
+          </Box>
+        </Flex>
+      </VStack>
+      <Footer isDark={isDark} />
+    </>
   )
 }
