@@ -13,7 +13,7 @@ const data = [
     "title": "Portfolio Website",
     "img": portfolioWebImg,
     "site": "",
-    "desc": "A personal portfolio website made with React.js and ChakraUI.",
+    "desc": "A personal portfolio website with light and dark mode made with React.js and ChakraUI.",
     "tech": ["Language: Javascript", "React.js", "ChakraUI", "Github"],
     "resource": {
       "repo": "https://github.com/danielcm585/portfolio-web",
@@ -25,7 +25,7 @@ const data = [
     "img": pentaPeduliImg,
     "site": "https://pentapeduli.hexalogi.cyou/",
     "role": ["Junior Backend Developer"],
-    "desc": "A web app for crowdfunding, that consists of frontend and backend made by Penta Team as Compfest Software Engineering Academy 2021 final project.",
+    "desc": "A web app for crowdfunding that consists of frontend and backend made by Penta Team as Compfest Software Engineering Academy 2021 final project.",
     "tech": ["Language: HTML, SASS, Typescript, Go", "React.js", "Redux Saga", "PostgreSQL", "GORM", "Docker", "Github"],
     "resource": {
       "frontRepo": "https://github.com/matthewCAlbert/compfest-final-task-frontend",
@@ -39,7 +39,7 @@ const data = [
     "img": hospitalSytemImg,
     "site": "https://hospital-system-compfest.herokuapp.com/",
     "role": ["Fullstack Developer"],
-    "desc": "A web app for booking an appointment with doctor, that consists of frontend and backend made by me as Compfest Software Engineering Academy 2021 first project.",
+    "desc": "A web app for booking an appointment with doctor that consists of frontend and backend made by me as Compfest Software Engineering Academy 2021 first project.",
     "tech": ["Language: HTML, CSS, Javascript, PHP", "PHPMyAdmin", "Github"],
     "resource": {
       "repo": "https://github.com/danielcm585/hospital-system",
@@ -50,7 +50,6 @@ const data = [
     "id": 4,
     "title": "Snake Game",
     "img": snakeGameImg,
-    "site": "",
     "desc": "A simple snake game made with Java.",
     "tech": ["Language: Java", "JFrame", "JPanel"],
     "resource": {
@@ -65,7 +64,7 @@ const data = [
     "desc": "An elastic shape application made with Python.",
     "tech": ["Language: Python", "Tkinter"],
     "resource": {
-      "repo": "https://github.com/danielcm585/drawing-app",
+      "repo": "https://github.com/danielcm585/shape-app",
     },
   },
   {

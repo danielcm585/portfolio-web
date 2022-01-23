@@ -65,7 +65,7 @@ export default function ProjectDetails() {
             <Box borderRadius="lg" bg={cardColor} p="2" mt="5">
               <Image src={project.img} borderRadius="lg" />
               {
-                (project.site !== null) && <Button mt="2" leftIcon={<FaExternalLinkAlt />} onClick={() => window.open(project.site)}>Visit Site</Button>
+                (project.site != null) && <Button mt="2" leftIcon={<FaExternalLinkAlt />} onClick={() => window.open(project.site)}>Visit Site</Button>
               }
             </Box>
 
