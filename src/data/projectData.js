@@ -103,7 +103,7 @@ const data = [
     "title": "Problemset Competitive Programming Problem",
     "img": pentaPeduliImg,
     "role": ["Problemsetter"],
-    "desc": "TOKI Regular Open Contest is ---",
+    "desc": "TOKI Regular Open Contest is a Competitive Programming contest that is held by Indonesian Informatics Olympiad National Team regularly.",
     "tech": ["Language: C++"],
   },
 ]
