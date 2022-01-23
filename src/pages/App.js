@@ -28,7 +28,7 @@ export default function App() {
         <Achievement isDark={isDark} isBigScreen={isBigScreen} />
         {/* <Certification /> */}
       </VStack>
-      <Footer isDark={isDark} />
+      <Footer isDark={isDark} isBigScreen={isBigScreen} />
     </>
   )
 }

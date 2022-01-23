@@ -145,7 +145,7 @@ export default function ProjectDetails() {
           </Box>
         </Flex>
       </VStack>
-      <Footer isDark={isDark} />
+      <Footer isDark={isDark} isBigScreen={isBigScreen} />
     </>
   )
 }

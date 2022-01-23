@@ -3,9 +3,9 @@ import React from "react"
 import colorData from "../data/colorData.js"
 
 import { Link, Text } from "@chakra-ui/react"
-import { VStack, HStack, Spacer, Flex } from "@chakra-ui/layout"
+import { VStack, HStack, Spacer, Box } from "@chakra-ui/layout"
 
-export default function Footer({ isDark }) {
+export default function Footer({ isDark, isBigScreen }) {
   const bgColor = colorData.footer[isDark]
 
   return (
@@ -13,8 +13,12 @@ export default function Footer({ isDark }) {
       <HStack w="70%" mt="7">
         <Text fontSize="lg" fontWeight="semibold">Daniel C.M.</Text>
         <Spacer></Spacer>
-        <Link href="/">home.</Link>
-        <Link href="/portfolio">portfolio.</Link>
+        <Box>
+          <Link href="/">home.</Link>
+        </Box>
+        <Box pl={isBigScreen ? "3" : "0"}>
+          <Link href="/portfolio">portfolio.</Link>
+        </Box>
       </HStack>
       <Spacer></Spacer>
       <Spacer></Spacer>
