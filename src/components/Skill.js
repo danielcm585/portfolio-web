@@ -7,8 +7,8 @@ import { Flex, Text, Box, Wrap } from "@chakra-ui/layout"
 
 export default function Skill({ isDark, isBigScreen }) {
   return (
-    <Flex w="77%">
-      <Box ml={isBigScreen ? "16" : "0"} mt={isBigScreen ? "0" : "16"} align="flex-start">
+    <Flex w="70%">
+      <Box mt={isBigScreen ? "0" : "16"} align="flex-start">
         <Wrap>
           <Text fontSize="4xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">
             My Skills

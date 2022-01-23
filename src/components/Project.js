@@ -22,8 +22,8 @@ export default function Project({ isDark, isBigScreen }) {
   const simplePortfolio = projectData.filter((project) => project.show)
 
   return (
-    <Flex w="77%">
-      <Box ml={isBigScreen ? "16" : "0"} mt="20" align="flex-start">
+    <Flex w="70%">
+      <Box mt="20" align="flex-start">
         <Wrap>
           <Text fontSize="4xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">
             My Projects
