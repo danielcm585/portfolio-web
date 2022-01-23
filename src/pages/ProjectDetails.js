@@ -47,8 +47,8 @@ export default function ProjectDetails() {
   return (
     <>
       <VStack p="5">
-        <Navbar isDark={isDark} toggleColorMode={toggleColorMode} />
-        <Flex w="70%">
+        <Navbar isDark={isDark} toggleColorMode={toggleColorMode} isBigScreen={isBigScreen} />
+        <Flex w={isBigScreen ? "70%" : "100%"}>
           <Box mt="6">
 
             <HStack>

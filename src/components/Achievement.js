@@ -8,7 +8,7 @@ import { Text } from "@chakra-ui/react"
 
 export default function Achievement({ isDark, isBigScreen }) {
   return (
-    <Flex w="70%">
+    <Flex w={isBigScreen ? "70%" : "100%"}>
       <Box mt="20" align="flex-start">
         <Wrap>
           <Text fontSize="4xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">

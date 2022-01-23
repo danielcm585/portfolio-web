@@ -8,9 +8,9 @@ import { Flex, Heading, Spacer } from "@chakra-ui/layout"
 import { SiInstagram, SiWhatsapp, SiGithub, SiLinkedin, SiCodeforces } from "react-icons/si"
 import { FaSun, FaMoon } from "react-icons/fa"
 
-export default function Navbar({ isDark, toggleColorMode }) {
+export default function Navbar({ isDark, toggleColorMode, isBigScreen }) {
   return (
-    <Flex w="70%">
+    <Flex w={isBigScreen ? "70%" : "100%"}>
       <Heading size="lg" fontWeight="semibold">
         Daniel C.M.
       </Heading>

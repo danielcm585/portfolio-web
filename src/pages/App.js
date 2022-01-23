@@ -21,7 +21,7 @@ export default function App() {
   return (
     <>
       <VStack p="5">
-        <Navbar isDark={isDark} toggleColorMode={toggleColorMode} />
+        <Navbar isDark={isDark} toggleColorMode={toggleColorMode} isBigScreen={isBigScreen} />
         <Introduction isDark={isDark} isBigScreen={isBigScreen} />
         <Skill isDark={isDark} isBigScreen={isBigScreen} />
         <Project isDark={isDark} isBigScreen={isBigScreen} />
