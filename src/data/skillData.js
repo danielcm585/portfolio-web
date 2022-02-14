@@ -1,4 +1,4 @@
-import { SiPython, SiJava, SiGo, SiCplusplus, SiPhp, SiMysql, SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiGithub, SiDocker, SiFigma, SiAdobephotoshop, SiNetlify, SiChakraui } from "react-icons/si"
+import { SiPython, SiJava, SiKotlin, SiGo, SiCplusplus, SiPhp, SiMysql, SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiGithub, SiDocker, SiFigma, SiAdobephotoshop, SiNetlify, SiChakraui } from "react-icons/si"
 
 const data = {
   "language": [
@@ -15,6 +15,11 @@ const data = {
     {
       "title": "Go",
       "icon": SiGo,
+      "level": "intermediate",
+    }, 
+    {
+      "title": "Kotlin",
+      "icon": SiKotlin,
       "level": "intermediate",
     }, 
     {
