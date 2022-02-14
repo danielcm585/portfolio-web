@@ -63,11 +63,6 @@ const data = {
       "title": "Node.js",
       "icon": SiNodedotjs,
       "level": "novice",
-    }, 
-    {
-      "title": "Tailwind",
-      "icon": SiTailwindcss,
-      "level": "novice",
     },
     {
       "title": "ChakraUI",

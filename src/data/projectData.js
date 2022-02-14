@@ -6,6 +6,7 @@ import todoListImg from "../img/todo-list.png"
 import barcodeImg from "../img/barcode.png"
 import scribbleImg from "../img/scribble-app.png"
 import drawingAppImg from "../img/drawing-app.png"
+import commentSectionImg from "../img/comment-section.png"
 
 const data = [
   {
@@ -48,6 +49,18 @@ const data = [
   },
   {
     "id": 4,
+    "title": "Interactive Comment Section",
+    "img": commentSectionImg,
+    "role": ["Frontend Developer"],
+    "desc": "An UI for an interactive comment section made with React.",
+    "tech": ["Language: Javascript, React.js", "Github"],
+    "resource": {
+      "repo": "https://github.com/danielcm585/interactive-comment-section",
+    },
+    "show": true,
+  },
+  {
+    "id": 5,
     "title": "Snake Game",
     "img": snakeGameImg,
     "desc": "A simple snake game made with Java.",
@@ -55,10 +68,9 @@ const data = [
     "resource": {
       "repo": "https://github.com/danielcm585/snake-game",
     },
-    "show": true,
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Drawing App",
     "img": drawingAppImg,
     "desc": "An elastic shape application made with Python.",
@@ -68,7 +80,7 @@ const data = [
     },
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "EAN-13 Barcode Generator",
     "img": barcodeImg,
     "desc": "An EAN-13 barcode generator application made with Python.",
@@ -78,7 +90,7 @@ const data = [
     },
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Scribble App",
     "img": scribbleImg,
     "desc": "A drawing and writting application made with Python.",
@@ -88,7 +100,7 @@ const data = [
     },
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Todo List App",
     "img": todoListImg,
     "desc": "An application for tracking todo lists made with React.js.",
@@ -98,7 +110,7 @@ const data = [
     },
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Problemset Competitive Programming Problem",
     "img": pentaPeduliImg,
     "role": ["Problemsetter"],
