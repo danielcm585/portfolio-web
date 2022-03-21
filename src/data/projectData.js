@@ -7,6 +7,7 @@ import barcodeImg from "../img/barcode.png"
 import scribbleImg from "../img/scribble-app.png"
 import drawingAppImg from "../img/drawing-app.png"
 import commentSectionImg from "../img/comment-section.png"
+import rekrutImg from "../img/rekrut.png"
 
 const data = [
   {
@@ -36,6 +37,20 @@ const data = [
   },
   {
     "id": 3,
+    "title": "Rekrut.id",
+    "img": rekrutImg,
+    "site": "https://rekrut-id.herokuapp.com/",
+    "role": ["Frontend Developer"],
+    "desc": "A web app for recruiting and searching jobs made by Rekrut Team as a project for Indonesia Digital Tribe 2022.",
+    "tech": ["Language: HTML, CSS, Javascript", "React.js", "Chakra UI", "Express.js", "MongoDB", "Mongoose", "Github"],
+    "resource": {
+      "frontRepo": "https://github.com/danielcm585/idt-frontend",
+      "backRepo": "https://github.com/Insta-x/idt-backend"
+    },
+    "show": true,
+  },
+  {
+    "id": 4,
     "title": "Hospital System",
     "img": hospitalSytemImg,
     "site": "https://hospital-system-compfest.herokuapp.com/",
@@ -45,10 +60,9 @@ const data = [
     "resource": {
       "repo": "https://github.com/danielcm585/hospital-system",
     },
-    "show": true,
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Interactive Comment Section",
     "img": commentSectionImg,
     "role": ["Frontend Developer"],
@@ -60,7 +74,7 @@ const data = [
     "show": true,
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Snake Game",
     "img": snakeGameImg,
     "desc": "A simple snake game made with Java.",
@@ -70,7 +84,7 @@ const data = [
     },
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Drawing App",
     "img": drawingAppImg,
     "desc": "An elastic shape application made with Python.",
@@ -80,7 +94,7 @@ const data = [
     },
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "EAN-13 Barcode Generator",
     "img": barcodeImg,
     "desc": "An EAN-13 barcode generator application made with Python.",
@@ -90,7 +104,7 @@ const data = [
     },
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Scribble App",
     "img": scribbleImg,
     "desc": "A drawing and writting application made with Python.",
@@ -100,7 +114,7 @@ const data = [
     },
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Todo List App",
     "img": todoListImg,
     "desc": "An application for tracking todo lists made with React.js.",
@@ -110,7 +124,7 @@ const data = [
     },
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Problemset Competitive Programming Problem",
     "img": pentaPeduliImg,
     "role": ["Problemsetter"],
