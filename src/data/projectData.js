@@ -8,6 +8,7 @@ import scribbleImg from "../img/scribble-app.png"
 import drawingAppImg from "../img/drawing-app.png"
 import commentSectionImg from "../img/comment-section.png"
 import rekrutImg from "../img/rekrut.png"
+import trocImg from "../img/troc.png"
 
 const data = [
   {
@@ -75,6 +76,14 @@ const data = [
   },
   {
     "id": 6,
+    "title": "Problemset Competitive Programming Problem",
+    "img": trocImg,
+    "role": ["Problemsetter"],
+    "desc": "TOKI Regular Open Contest is a Competitive Programming contest that is held by Indonesian Informatics Olympiad National Team regularly.",
+    "tech": ["Language: C++"],
+  },
+  {
+    "id": 7,
     "title": "Snake Game",
     "img": snakeGameImg,
     "desc": "A simple snake game made with Java.",
@@ -84,7 +93,7 @@ const data = [
     },
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Drawing App",
     "img": drawingAppImg,
     "desc": "An elastic shape application made with Python.",
@@ -94,7 +103,7 @@ const data = [
     },
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "EAN-13 Barcode Generator",
     "img": barcodeImg,
     "desc": "An EAN-13 barcode generator application made with Python.",
@@ -104,7 +113,7 @@ const data = [
     },
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Scribble App",
     "img": scribbleImg,
     "desc": "A drawing and writting application made with Python.",
@@ -114,7 +123,7 @@ const data = [
     },
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Todo List App",
     "img": todoListImg,
     "desc": "An application for tracking todo lists made with React.js.",
@@ -122,14 +131,6 @@ const data = [
     "resource": {
       "repo": "https://github.com/danielcm585/todo-list-app",
     },
-  },
-  {
-    "id": 11,
-    "title": "Problemset Competitive Programming Problem",
-    "img": pentaPeduliImg,
-    "role": ["Problemsetter"],
-    "desc": "TOKI Regular Open Contest is a Competitive Programming contest that is held by Indonesian Informatics Olympiad National Team regularly.",
-    "tech": ["Language: C++"],
   },
 ]
 
