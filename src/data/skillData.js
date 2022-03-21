@@ -20,7 +20,7 @@ const data = {
     {
       "title": "Kotlin",
       "icon": SiKotlin,
-      "level": "intermediate",
+      "level": "expert",
     }, 
     {
       "title": "C++",
