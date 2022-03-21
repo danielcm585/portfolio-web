@@ -1,4 +1,4 @@
-import { SiPython, SiJava, SiKotlin, SiGo, SiCplusplus, SiPhp, SiMysql, SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiGithub, SiDocker, SiFigma, SiAdobephotoshop, SiNetlify, SiChakraui } from "react-icons/si"
+import { SiPython, SiJava, SiKotlin, SiGo, SiCplusplus, SiPhp, SiMysql, SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiGithub, SiDocker, SiFigma, SiAdobephotoshop, SiNetlify, SiChakraui, SiHeroku } from "react-icons/si"
 
 const data = {
   "language": [
@@ -63,11 +63,6 @@ const data = {
       "title": "Next.js",
       "icon": SiNextdotjs,
       "level": "novice",
-    }, 
-    {
-      "title": "Node.js",
-      "icon": SiNodedotjs,
-      "level": "novice",
     },
     {
       "title": "ChakraUI",
@@ -101,6 +96,11 @@ const data = {
       "icon": SiNetlify,
       "level": "novice",
     },
+    {
+      "title": "Heroku",
+      "icon": SiHeroku,
+      "level": "intermediate",
+    }
   ],
   "additional": [
     {
