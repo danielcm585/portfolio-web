@@ -42,7 +42,7 @@ const data = [
     "img": rekrutImg,
     "site": "https://rekrut-id.herokuapp.com/",
     "role": ["Frontend Developer"],
-    "desc": "A web app for recruiting and searching jobs made by Rekrut Team as a project for Indonesia Digital Tribe 2022.",
+    "desc": "Rekrut.id is a listing website where people with any kind of skill background can look for work. Our website has a lot of features that can help both worker and client achieve what they want. Workers can look for high paying job that fits with their skill, schedule, and location. Client can look for skilled and experienced worker that fits with the job requirements.",
     "tech": ["Language: HTML, CSS, Javascript", "React.js", "Chakra UI", "Express.js", "MongoDB", "Mongoose", "Github"],
     "resource": {
       "frontRepo": "https://github.com/danielcm585/idt-frontend",
