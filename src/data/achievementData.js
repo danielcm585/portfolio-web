@@ -12,11 +12,23 @@ const data = [
     "site": "http://www.kalderanews.com/2020/10/inilah-daftar-lengkap-pemenang-ksn-jenjang-sma-bidang-informatika-2020/",
   }, 
   {
+    "title": "Top 3 Team",
+    "contest": "Hackfest 2022 by Google Developer Student Club",
+    "medal": "none",
+    "site": "https://drive.google.com/file/d/1PrzeLU9m2XyRkel0Vo4tvQQ4p3XRXxOi/view?usp=sharing"
+  },
+  {
     "title": "Top 12 Team (as UNLIMITED)",
     "contest": "INC 2021",
     "medal": "none",
     "site": "https://competition.binus.ac.id/inc2021/",
   }, 
+  {
+    "title": "Best Team",
+    "contest": "Comfest Software Engineer Academy",
+    "medal": "none",
+    "site": "https://www.compfest.id/"
+  },
   {
     "title": "Top 14 Indonesia Participant",
     "contest": "APIO 2021",
@@ -29,12 +41,6 @@ const data = [
     "medal": "none",
     "site": "https://edukasi.kompas.com/read/2021/05/22/215927271/17-siswa-indonesia-siap-unjuk-kemampuan-di-olimpiade-informatika-asia?page=all",
   },
-  {
-    "title": "Best Team",
-    "contest": "Comfest Software Engineer Academy",
-    "medal": "none",
-    "site": "https://www.compfest.id/"
-  }
 ]
 
 export default data
