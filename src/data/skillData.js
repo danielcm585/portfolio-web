@@ -62,17 +62,27 @@ const data = {
     {
       "title": "React.js",
       "icon": SiReact,
-      "level": "intermediate",
+      "level": "expert",
     }, 
     {
-      "title": "Next.js",
-      "icon": SiNextdotjs,
+      "title": "React Native",
+      "icon": SiReact,
+      "level": "expert",
+    }, 
+    {
+      "title": "Vue.js",
+      "icon": SiVuejsFill,
+      "level": "novice",
+    },
+    {
+      "title": "Tailwind CSS",
+      "icon": SiTailwindcss,
       "level": "novice",
     },
     {
       "title": "ChakraUI",
       "icon": SiChakraui,
-      "level": "intermediate",
+      "level": "expert",
     },
     {
       "title": "Flutter",
@@ -99,11 +109,6 @@ const data = {
     {
       "title": "Adobe Photoshop",
       "icon": SiAdobephotoshop,
-      "level": "novice",
-    }, 
-    {
-      "title": "Netlify",
-      "icon": SiNetlify,
       "level": "novice",
     },
     {
