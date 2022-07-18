@@ -9,7 +9,6 @@
     "@chakra-ui/react": "^1.7.4",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
-    
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -17,7 +16,7 @@
     "jquery": "^3.6.0",
     "json2mq": "^0.2.0",
     "react": "17.0.2",
-    "react-dom": "^17.0.2",
+    "react-dom": "^16.0.0",
     "react-elastic-carousel": "^0.11.5",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.2.1",
@@ -52,7 +51,7 @@
     ]
   },
   "devDependencies": {
-    "ajv": "^6.12.6",
+    "ajv": "^8.8.2",
     "mini-css-extract-plugin": "2.4.5",
     "react": "^16.14.0"
   }
