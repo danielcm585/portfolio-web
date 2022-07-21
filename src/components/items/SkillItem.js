@@ -10,8 +10,10 @@ export default function SkillItem({ isDark, skill }) {
 
   return (
     <Box bg={levelColor} mt="3" mr="3" p="1" pl="2" pr="2" borderRadius="lg">
-      <Icon mr="1" as={skill.icon} />
-      {skill.title}
+      <HStack align="center" space="1">
+        <Icon as={skill.icon} />
+        {skill.title}
+      </HStack>
     </Box>
   )
 }
