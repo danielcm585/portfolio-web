@@ -9,7 +9,7 @@ const data = [
     "title": "Bronze Medalist",
     "contest": "Indonesia NOI 2020 (KSN 2020)",
     "medal": "bronze",
-    "site": "http://www.kalderanews.com/2020/10/inilah-daftar-lengkap-pemenang-ksn-jenjang-sma-bidang-informatika-2020/",
+    "site": "https://osn.toki.id/KSN2020/hasil",
   }, 
   {
     "title": "Top 3 Team",
